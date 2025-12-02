@@ -1,9 +1,11 @@
 # Trainers
 
-## Nextflow
+Resources to run your own workshop.
 
-| Course                         | Workshop | Self-instructed |
-| ------------------------------ | -------- | --------------- |
-| Nextflow for the Life Sciences |          |                 |
-| Nextflow on HPC                |          |                 |
+## Nextflow 
+
+| Course                         | Materials | Data | Reference | Instructor notes | Maintainers |
+| ------------------------------ | --------- | ---- | --------- | ---------------- | ----------- |
+| Nextflow for the Life Sciences | [:simple-github:](https://github.com/Sydney-Informatics-Hub/nf4ls-data) | [:simple-github:](https://github.com/Sydney-Informatics-Hub/nf4ls-materials) |           |                  |             |
+| Nextflow on HPC                |           |      |           |                  |             |
 

@@ -1,9 +1,9 @@
 # Learners
 
-## Nextflow 
+## Nextflow
 
-| Course                         | Materials | Data | Reference | Instructor notes | Maintainers |
-| ------------------------------ | --------- | ---- | --------- | ---------------- | ----------- |
-| Nextflow for the Life Sciences |           |      |           |                  |             |
-| Nextflow on HPC                |           |      |           |                  |             |
+| Course                         | Workshop | Self-instructed |
+| ------------------------------ | -------- | --------------- |
+| Nextflow for the Life Sciences |          |                 |
+| Nextflow on HPC                |          |                 |
 
