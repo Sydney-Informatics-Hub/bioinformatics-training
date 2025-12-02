@@ -1,15 +1,11 @@
-site_name: template-mkdocs
-repo_url: https://github.com/Sydney-Informatics-Hub/template-mkdocs
-repo_name: Sydney-Informatics-Hub/template-mkdocs
+site_name: bioinformatics-training
+repo_url: https://github.com/Sydney-Informatics-Hub/bioinformatics-training
+repo_name: Sydney-Informatics-Hub/bioinformatics-training
 
 nav:
-  # Landing page
   - Home: index.md 
-  # Example top-level page
-  #- Setup: setup.md
-  # Example nested page
-  # - Part 1:
-  #   - Introduction: part1/intro.md
+  - Learners: learners.md 
+  - Trainers: trainers.md 
 
 theme:
   name: material
