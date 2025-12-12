@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Learners
 
 SIH bioinformatics team past training workshops.

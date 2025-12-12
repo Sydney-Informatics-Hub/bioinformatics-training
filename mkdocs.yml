@@ -11,8 +11,8 @@ theme:
   name: material
   logo: assets/usyd-logo.png
   features:
-    - navigation.footer
-    - content.code.copy
+    - navigation.tabs
+    - navigation.tabs.sticky
   palette:
     - scheme: default
       primary: custom

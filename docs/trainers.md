@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Trainers
 
 Resources to run your own workshop. To get started, please view the
