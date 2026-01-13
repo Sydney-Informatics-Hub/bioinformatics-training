@@ -1,3 +1,3 @@
 # bioinformatics-training
 
-Software carpentries-style catalogue of SIH bioinformatics training
+Catalogue of SIH bioinformatics training
