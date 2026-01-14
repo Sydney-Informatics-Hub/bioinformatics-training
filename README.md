@@ -49,6 +49,34 @@ The built site will be in the `site/` directory.
 3. Commit and push your changes
 4. Create a pull request
 
+### Adding new training materials
+
+To add new courses or workshops to the learners page:
+
+1. Edit the relevant CSV file in the `docs/` directory (e.g., `nextflow_courses.csv`)
+2. Add a new row with the course information:
+   - Fill in all required columns (Topic, Course, Description, Workshop materials, Repository, Dataset, Webinar slides, Webinar recording)
+   - Use a space `" "` for empty cells (not empty quotes `""`) to avoid "nan" rendering
+   - For links, use markdown format: `[text](url)` or `[:icon-name:](url)` for icons with links
+   - For icons without links, just use `:icon-name:`
+3. Preview your changes with `mkdocs serve`
+4. Commit and push your changes
+
+**Icon reference for each column:**
+
+- **Workshop materials**: `:simple-readme:` - Readme icon for workshop documentation
+- **Repository**: `:simple-github:` - GitHub icon for code repositories
+- **Dataset**: Use appropriate icon for the dataset type
+- **Webinar slides**: `:material-presentation:` - Presentation/slides icon
+- **Webinar recording**: `:simple-youtube:` - YouTube icon for video recordings
+
+**Example CSV row:**
+```csv
+Nextflow,My Course,Course description,[:simple-readme:](https://link-to-materials),:simple-github:," ",:material-presentation:,:simple-youtube:
+```
+
+**Note:** The tables on the site are automatically generated from CSV files using the table-reader-plugin, so edit the CSV files directly rather than markdown tables.
+
 ### Adding new pages
 
 1. Create a new `.md` file in the `docs/` directory
