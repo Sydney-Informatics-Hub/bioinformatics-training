@@ -1,5 +1,0 @@
-Topic,Course,Description,Workshop,Dataset,Slides,Webinar
-Bioinformatics,What exactly is bioinformatics?,Introduction to bioinformatics experiments," "," ",[:material-presentation:](https://zenodo.org/records/13283096),[:simple-youtube:](https://www.youtube.com/watch?v=wmy2C-S-rMU)
-Nextflow,Nextflow for the Life Sciences,Introduction to building and runing Nextflow pipelines,[:simple-readme:](https://sydney-informatics-hub.github.io/hello-nextflow-2025/),[:simple-github:](https://github.com/Sydney-Informatics-Hub/nf4ls-materials)," "," "
-Nextflow,Nextflow on HPC,Configure and run Nextflow pipelines on HPC,[:simple-readme:](https://sydney-informatics-hub.github.io/nextflow-hpc-workshop/),[:simple-github:](https://github.com/Sydney-Informatics-Hub/nextflow-on-hpc-materials)," "," "
-Nextflow,Configuring nf-core,Configure nf-core pipelines for your needs,[:simple-readme:](https://sydney-informatics-hub.github.io/customising-nfcore-workshop/)," "," "," "

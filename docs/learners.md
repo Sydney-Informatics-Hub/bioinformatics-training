@@ -11,5 +11,5 @@ Bioinformatics training materials from workshops and webinars.
 </br>
 </br>
 
-{{ read_csv('learners.csv') }}
+{{ read_csv('assets/learners.csv') }}
 
