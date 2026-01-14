@@ -4,7 +4,15 @@ hide:
   - toc
 ---
 
-# SIH Bioinformatics Training
+# 
+
+Sydney Informatics Hub provides practical, hands-on training in bioinformatics and research computing for life science researchers. Our materials are developed for a national research audience in collaboration with Australian BioCommons. 
+
+All of our training emphasise reproucible workflows, best-practice tooling, and skills that can be applied directly to your research. These materials are used in workshops, short courses, and webinars delivered by SIH and our partners, and are designed to be reused, adapted, and extended.
+
+!!! info "Get in touch with us"
+
+    SIH can also deliver training on request, including tailored or bespoke workshops. If you are interested in training delivery, bespoke materials, or reuse of these resources, please [get in touch]().
 
 <div class="grid cards" markdown>
 
