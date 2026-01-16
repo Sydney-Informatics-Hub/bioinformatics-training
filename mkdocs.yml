@@ -13,6 +13,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - content.external.links
   palette:
     - scheme: default
       primary: custom
@@ -27,20 +28,39 @@ theme:
 
 plugins:
   - search
-  - table-reader
+  - table-reader:
+      data_path: "docs"
+      allow_missing_files: false
+      select_readers:
+        - read_csv
+        - read_table
+  - privacy:
+      external_links: true
+      external_links_attr_map:
+        target: _blank
+        rel: noopener noreferrer
+      links_attr_map:
+        target: _blank
+        rel: noopener noreferrer
+      external_links_noopener: true
 
 extra_css:
   - extra.css
 
+extra_javascript:
+  - assets/js/external-links.js
+
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.superfences:
       preserve_tabs: true
-  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
